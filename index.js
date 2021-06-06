@@ -6,7 +6,7 @@ const comandos = require("./comandos")
 
 cliente.on("ready",()=>{
     console.log(`EL BOT ${cliente.user.tag} ESTA LISTO`);
-    comandos(cliente,"ping",(message)=>{
+    comandos(cliente,["ping","test"],(message)=>{
         message.channel.send("pong")
     })
 })
