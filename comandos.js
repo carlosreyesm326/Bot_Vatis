@@ -5,7 +5,6 @@ module.exports=(cliente,aliases,callback)=>{
     if(typeof aliases==="string"){
         aliases=[aliases]
     }
-
     cliente.on("message", msg=>{
     const {content}=msg;
     aliases.forEach(alias => {

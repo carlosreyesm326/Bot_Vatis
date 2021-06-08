@@ -1,6 +1,10 @@
 {
     "censura": [
-        "MALPARIDO",
-        "JOSE"
+        "malparido",
+        "jose"
+    ],
+    "prefixTuManga":[
+        "https://lectortmo.com"
+
     ]
 }
