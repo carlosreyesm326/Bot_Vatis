@@ -13,7 +13,7 @@
   cliente.on("ready", () => {
     console.log(`EL BOT ${cliente.user.tag} ESTA LISTO`);
     cliente.user.setPresence({
-      status:"dnd",
+      status:"online",
       activity:{
         name:"help | crater",
         type:"LISTENING"
@@ -53,7 +53,7 @@
     const emb = new MessageEmbed()
     .setTitle("My Status")
       .setColor(0xae70c2)
-      .setDescription("Soy Berú-chan, \n Un bot diseñado para complacerte, Nya!!!")
+      .setDescription("Soy Berú-chan (✿◠‿◠)  \n Un bot diseñado para complacerte, Nya!!!")
       .setFooter("\xA9 Copyright 2021 - CarlosReyesM ")
       .setThumbnail("https://i.imgur.com/9tWjjr6.jpg")
       .setTimestamp()
